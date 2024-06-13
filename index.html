@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="icon" href="img/logo_web_1.png" type="image/x-icon">
+		<title>Рестораны Саранска | Главная</title>
+	</head>
+	<body>
+		<!-- Header -->
+		<header class="header">
+			<div class="container">
+				<div class="header__inner">
+					<div class="header__logo">
+						<img src="img/logo.png" alt="Логотип не загрузился" />
+					</div>
+					<nav class="nav">
+						<a class="nav__link" href="#">Главная</a>
+						<a class="nav__link" href="#restourants">Рестораны</a>
+						<a class="nav__link" href="#footer">Контакты</a>
+						<a class="nav__link" href="./about-us.html">О нас</a>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!-- Header -->
+
+		<!-- Slider -->
+		<div class="container2" id="top">
+			<div class="css-slider-wrapper">
+				<input
+					type="radio"
+					class="slide-radio1"
+					name="slider"
+					id="slider_1"
+					checked="checked"
+				/>
+				<input type="radio" class="slide-radio2" name="slider" id="slider_2" />
+				<input type="radio" class="slide-radio3" name="slider" id="slider_3" />
+				<input type="radio" class="slide-radio4" name="slider" id="slider_4" />
+				<div class="slider-pegination">
+					<label for="slider_1" class="page1"></label>
+					<label for="slider_2" class="page2"></label>
+					<label for="slider_3" class="page3"></label>
+					<label for="slider_4" class="page4"></label>
+				</div>
+				<div class="next control">
+					<label for="slider_1" class="numb1"
+						><i class="fa fa-arrow-circle-right"></i
+					></label>
+					<label for="slider_2" class="numb2"
+						><i class="fa fa-arrow-circle-right"></i
+					></label>
+					<label for="slider_3" class="numb3"
+						><i class="fa fa-arrow-circle-right"></i
+					></label>
+					<label for="slider_4" class="numb4"
+						><i class="fa fa-arrow-circle-right"></i
+					></label>
+				</div>
+				<div class="previous control">
+					<label for="slider_1" class="numb1"
+						><i class="fa fa-arrow-circle-left"></i
+					></label>
+					<label for="slider_2" class="numb2"
+						><i class="fa fa-arrow-circle-left"></i
+					></label>
+					<label for="slider_3" class="numb3"
+						><i class="fa fa-arrow-circle-left"></i
+					></label>
+					<label for="slider_4" class="numb4"
+						><i class="fa fa-arrow-circle-left"></i
+					></label>
+				</div>
+				<div class="slider slide1">
+					<div class="title_wrapper p-10">
+						<h2 class="section_title fw-300"><span>В</span> Саранске вкусно!</h2>
+					</div>
+				</div>
+				<div class="slider slide2">
+					<div class="title_wrapper p-10">
+						<h2 class="section_title fw-300">Отличный вид <span>на</span> город</h2>
+					</div>
+				</div>
+				<div class="slider slide3">
+					<div class="title_wrapper p-10">
+						<h2 class="section_title fw-300">Разнооразные рестораны <span>для каждого</span></h2>
+					</div>
+				</div>
+				<div class="slider slide4">
+					<div class="title_wrapper p-10">
+						<h2 class="section_title fw-300"><span>Незабываемые</span> впечатления</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Slider -->
+
+		<!-- Content -->
+		<div class="content" id="restourants">
+			<div class="container">
+				<div class="title_wrapper">
+					<h2 class="section_title">Лучшие Рестораны <span>Саранска</span></h2>
+				</div>
+					<div class="review_cards">
+						<div class="review_cards_row">
+							<!-- Card -->
+							<div class="review_card">
+								<img src="./img/pig_logo.jpeg" alt="" class="review_card_img" />
+								<div class="review_card_content">
+									<p class="card_review_ocenka">Гриль-бар</p>
+									<p class="review_card_title">Биг Пиг</p>
+									<p class="review_card_title mini">ул. Коммунистическая,60</p>
+									<a href="./restaurants/big-pig.html" class="review_card_button">Посмотреть</a>
+								</div>
+							</div>
+						<!-- Card -->
+							<!-- Card -->
+							<div class="review_card">
+								<img src="./img/more_logo.jpg" alt="" class="review_card_img" />
+								<div class="review_card_content">
+									<p class="card_review_ocenka">ГастроПаб</p>
+									<p class="review_card_title">МореМЯСО</p>
+									<p class="review_card_title mini">ул. Льва Толстого,23</p>
+									<a href="./restaurants/more-myaso.html" class="review_card_button">Посмотреть</a>
+								</div>
+							</div>
+						<!-- Card -->
+							<!-- Card -->
+							<div class="review_card">
+								<img src="./img/panorama_logo.jpeg" alt="" class="review_card_img" />
+								<div class="review_card_content">
+									<p class="card_review_ocenka">Ресторан</p>
+									<p class="review_card_title">Panorama</p>
+									<p class="review_card_title mini">ул.Советская,54</p>
+									<a href="./restaurants/panorama.html" class="review_card_button">Посмотреть</a>
+								</div>
+							</div>
+						<!-- Card -->
+					</div>
+						<div class="review_cards_row">
+							<!-- Card -->
+							<div class="review_card">
+								<img src="./img/sumer_logo.jpg" alt="" class="review_card_img" />
+								<div class="review_card_content">
+									<p class="card_review_ocenka">Ресторан, ночной клуб</p>
+									<p class="review_card_title">Саммер Джем</p>
+									<p class="review_card_title mini">ул.Васенко,9</p>
+									<a href="./restaurants/samer_djem.html" class="review_card_button">Посмотреть</a>
+								</div>
+							</div>
+							<!-- Card -->
+							<!-- Card -->
+							<div class="review_card">
+								<img src="./img/doge_logo.jpg" alt="" class="review_card_img" />
+								<div class="review_card_content">
+									<p class="card_review_ocenka">Ресторан</p>
+									<p class="review_card_title">Дож</p>
+									<p class="review_card_title mini">ул.Советская,75</p>
+									<a href="./restaurants/doge.html" class="review_card_button">Посмотреть</a>
+								</div>
+							</div>
+							<!-- Card -->
+							<!-- Card -->
+							<div class="review_card">
+								<img src="./img/tom_soi_logo.jpg" alt="" class="review_card_img" />
+								<div class="review_card_content">
+									<p class="card_review_ocenka">Ресторан</p>
+									<p class="review_card_title">Том Сой Изакая</p>
+									<p class="review_card_title mini">ул.Большевитская,30</p>
+									<a href="./restaurants/tom_soi.html" class="review_card_button">Посмотреть</a>
+								</div>
+							</div>
+							<!-- Card -->
+					</div>
+						<div class="review_cards_row">
+							<!-- Card -->
+							<div class="review_card">
+								<img src="./img/miruki_logo.jpg" alt="" class="review_card_img" />
+								<div class="review_card_content">
+									<p class="card_review_ocenka">Ресторан, суши-бар</p>
+									<p class="review_card_title">Italiano Miruki</p>
+									<p class="review_card_title mini">просп.Ленина,14</p>
+									<a href="./restaurants/miruki.html" class="review_card_button">Посмотреть</a>
+								</div>
+							</div>
+							<!-- Card -->
+							<!-- Card -->
+							<div class="review_card">
+								<img src="./img/grand_hall_logo.jpeg" alt="" class="review_card_img" />
+								<div class="review_card_content">
+									<p class="card_review_ocenka">Ресторан, банкетный зал</p>
+									<p class="review_card_title">Grand Hall</p>
+									<p class="review_card_title mini">ул.Гожувская,41В</p>
+									<a href="./restaurants/grand_hall.html" class="review_card_button">Посмотреть</a>
+								</div>
+							</div>
+							<!-- Card -->
+							<!-- Card -->
+							<div class="review_card">
+								<img src="./img/kaban_logo.jpg" alt="" class="review_card_img" />
+								<div class="review_card_content">
+									<p class="card_review_ocenka">Ресторан, караоке-клуб</p>
+									<p class="review_card_title">Кабан&Брюква</p>
+									<p class="review_card_title mini">ул.Большевитская,2</p>
+									<a href="./restaurants/kaban.html" class="review_card_button">Посмотреть</a>
+								</div>
+							</div>
+							<!-- Card -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Content -->
+		
+		<!-- Footer -->
+		<footer class="footer" id="footer">
+			<div class="container">
+				<div class="footer_space">
+						<div class="footer_pages">
+							<p class="footer_pages_title">Навигация</p>
+							<a href="#top" class="footer_page">Главная</a>
+							<a href="#restourants" class="footer_page">Рестораны</a>
+							<a href="#footer" class="footer_page">Контакты</a>
+						</div>
+						<div class="footer_inner">
+							<p class="footer_pages_title">Рестораны</p>
+							<div class="footer_justify">
+								<div class="footer_pages">
+									<a href="./restaurants/big-pig.html" class="footer_page">Биг Пиг</a>
+									<a href="./restaurants/doge.html" class="footer_page">Дож</a>
+									<a href="./restaurants/panorama.html" class="footer_page">Panorama</a>
+								</div>
+								<div class="footer_pages">
+									<a href="./restaurants/samer_djem.html" class="footer_page">Саммер Джем</a>
+									<a href="./restaurants/more-myaso.html" class="footer_page">МореМЯСО</a>
+									<a href="./restaurants/tom_soi.html" class="footer_page">Том Сой Изакая</a>
+								</div>
+								<div class="footer_pages">
+									<a href="./restaurants/miruki.html" class="footer_page">Italiano Miruki</a>
+									<a href="./restaurants/grand_hall.html" class="footer_page">Grand Hall</a>
+									<a href="./restaurants/kaban.html" class="footer_page">Кабан&Брюква</a>
+								</div>
+							</div>
+						</div>
+					<div class="footer_pages">
+						<p class="footer_pages_title">Контакты</p>
+						<a href="tel:+79999999999" class="footer_page"
+							>+7 (980) 777-59-69</a
+						>
+						<a href="mailto:mail@mail.ru" class="footer_page">restsaransk@mail.ru</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer_copy">
+				<div class="container">
+					<p class="footer_copy_text">
+						© 2024 Рестораны Саранска. Все права защищены.
+					</p>
+				</div>
+			</div>
+		</footer>
+		<!-- Footer -->
+	</body>
+</html>
